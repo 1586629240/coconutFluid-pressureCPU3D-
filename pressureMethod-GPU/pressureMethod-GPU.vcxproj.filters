@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="header">
+      <UniqueIdentifier>{685719a0-ae6f-42a5-bc6f-43cdcdcd34a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{438ec2cc-d875-4c46-940b-3003d50c5c08}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FluidKernel.cuh">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="Fluid.cuh">
+      <Filter>header</Filter>
+    </CudaCompile>
+    <CudaCompile Include="boundryCond.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="FluidKernel.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Fluid.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="header.cuh">
+      <Filter>header</Filter>
+    </CudaCompile>
+    <CudaCompile Include="main.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="CGCuImpl.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="RBGSCuImpl.cu">
+      <Filter>source</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
