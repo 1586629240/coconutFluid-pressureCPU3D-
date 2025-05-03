@@ -20,4 +20,4 @@ Easyx Lib link: https://easyx.cn/
 
 3. Download the cuda sdk on NVIDIA website, the recommended version is 12.6
    
-4. Open sln file in VisualStudio2022, and then compile. May need to change the architecture sm_86 to other
+4. Open sln file in VisualStudio2022, and then compile. May need to change the architecture "sm_86" to other
